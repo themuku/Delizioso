@@ -1,13 +1,10 @@
+"use client";
+
 import Input from "@/components/Inputs";
 import Image from "next/image";
 import Logo from "@/components/Navigation/Logo";
 import Link from "next/link";
 import AuthButton from "@/components/AuthButton";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Delizioso | Signup",
-};
 
 export default function Signup() {
   return (
@@ -16,7 +13,7 @@ export default function Signup() {
         <div className="mb-[20px]">
           <Logo />
         </div>
-        <h1 className="text-[20px] mb-[10px]">Login</h1>
+        <h1 className="text-[20px] mb-[10px] font-bold">Signup</h1>
         <p className="mb-[20px] inline-block">
           Don&apos;t have an account?{" "}
           <Link className="text-[#0094FF]" href={"/auth/login"}>
@@ -38,7 +35,7 @@ export default function Signup() {
         </div>
         <AuthButton.Login />
         <div className="mb-[20px] mt-[10px]">
-          <AuthButton.LoginGoogle />
+          <AuthButton.SignupGithub />
         </div>
         <p className="text-[#C7BFB6] text-center">
           Copyright &copy; 2022 Delizioso

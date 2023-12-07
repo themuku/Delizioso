@@ -1,4 +1,4 @@
-import ChefCard from "@/components/HomePage/Reservation/ChefCard";
+import ChefCard from "./ChefCard";
 import Button from "@/components/Button";
 
 export default function OurChefs() {

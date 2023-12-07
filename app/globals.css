@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
 
 * {
   color: #311F09;
 }
+
+.quote, .cta {
+  font-family: 'Tinos', serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
